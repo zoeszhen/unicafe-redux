@@ -14,13 +14,13 @@ const App = () => {
 
   return (
     <div>
-      <button onClick={good}>hyvä</button> 
-      <button>neutraali</button> 
-      <button>huono</button>
-      <button>nollaa tilastot</button>
-      <div>hyvä {store.getState().good}</div>
-      <div>neutraali</div>
-      <div>huono</div>
+      <button onClick={good}>good</button> 
+      <button>neutral</button> 
+      <button>bad</button>
+      <button>reset stats</button>
+      <div>good {store.getState().good}</div>
+      <div>neutral</div>
+      <div>bad</div>
     </div>
   )
 }
